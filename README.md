@@ -8,7 +8,7 @@
 
 想要建立自己的整个 Live2D 服务，需要以下项目清单：
 
-1. [Live2D API](#1.Live2D API)（用于搭建自己的 Live2D 后端，需要 PHP >= 5.2）
+1. Live2D API（用于搭建自己的 Live2D 后端，需要 PHP >= 5.2）
 2. Live2D Widget（用于前端载入 Live2D 模型和服务）
 3. Live2D Model（更多的 Live2D 模型）
 4. Live2D Cubism（用于制作自己的 Live2D 模型）
