@@ -15,13 +15,13 @@
 
 ## 使用方法 🔨
 
-### 1.Live2D API
+### 1. Live2D API
 
 首先，需要搭建一个自己的 Live2D API。
 
 > 仓库: https://github.com/fghrsh/live2d_api
 
-#### 环境要求
+#### 1.1 环境要求
 
 - PHP 版本 >= 5.2（静态空间和对象存储不可用）
 - 依赖 PHP 扩展：json
@@ -30,7 +30,7 @@
 
 更多信息，如API接口的使用，模型的位置与增减等，详见 [Live2D API 说明](https://github.com/fghrsh/live2d_api/blob/master/README.md)。
 
-### 2.Live2D Widget
+### 2. Live2D Widget
 
 Live2D Widget 是在前端载入 Live2D 模型的插件。
 
@@ -46,7 +46,7 @@ Live2D Widget 是在前端载入 Live2D 模型的插件。
 +-LICENSE（许可文件）
 ```
 
-#### 使用方法
+#### 2.1 使用方法
 
 修改 `autoload.js` 文件第2行的目录为自己的插件路径。例如，此例示文件位于 `live2d-widget` 文件夹，则修改路径为：
 
@@ -69,7 +69,7 @@ initWidget({
 <script src="autoload.js"></script>
 ```
 
-#### 额外支持
+#### 2.2 额外支持
 
 Live2D Widget 需要 Font Awesome (v4 或 v5) 图标支持，请确保相关样式表已在页面中加载。
 
@@ -81,7 +81,7 @@ Live2D Widget 需要 Font Awesome (v4 或 v5) 图标支持，请确保相关样�
 
 否则图标将无法正常显示。（如果网页中已经加载了任何版本的 Font Awesome，就不要重复加载了）
 
-#### 语言文字修改
+#### 2.3 语言文字修改
 
 若要调整交互文字提示，修改 `waifu-tips.js` 与 `waifu-tips.json` 文件即可。
 
@@ -92,7 +92,7 @@ Live2D Widget 需要 Font Awesome (v4 或 v5) 图标支持，请确保相关样�
 
 更多信息，详见 [Live2D Widget 说明](https://github.com/stevenjoezhang/live2d-widget/blob/master/README.md)。
 
-### 3.Live2D Model
+### 3. Live2D Model
 
 虽然 Live2D API 内置了一些模型，但是你仍可以添加额外的模型。
 
@@ -100,17 +100,18 @@ Live2D Widget 需要 Font Awesome (v4 或 v5) 图标支持，请确保相关样�
 
 模型使用方法，详见 [Live2D Model 说明](https://github.com/Eikanya/Live2d-model/blob/master/README.md)。
 
-### 4.Live2D Cubism
+### 4. Live2D Cubism
 
 Live2D Cubism 是制作和修改 Live2D 模型的工具。
 
 Live2D 官方网站：
-https://www.live2d.com/en/
-[https://live2d.github.io](https://live2d.github.io/)
 
-## 一个例子 🌰
++ [https://www.live2d.com](https://www.live2d.com)
++ [https://live2d.github.io](https://live2d.github.io/)
 
-通过以上四部完成的 Live2D 前端展示的实例：[点此查看](https://windmill0503.github.io/demo/live2d/index.html)
+### 一个例子 🌰
+
+通过以上四部完成的 Live2D 前端展示的实例：[点此查看](https://github.nousbuild.com/demo/live2d/index.html)
 
 ### 许可证 License
 
