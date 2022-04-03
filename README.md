@@ -111,7 +111,7 @@ Live2D 官方网站：
 
 ### 一个例子 🌰
 
-通过以上四部完成的 Live2D 前端展示的实例：[点此查看](https://pudding0503.github.io/live2d-package/demo.html)
+通过以上四部完成的 Live2D 前端展示的实例：[点此查看](https://pudding.nousbuild.com/live2d-package/demo/index.html)
 
 ### 许可证 License
 
