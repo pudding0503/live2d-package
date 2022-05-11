@@ -10,8 +10,8 @@
 
 1. Live2D API（用于搭建自己的 Live2D 后端，需要 PHP >= 5.2）
 2. Live2D Widget（用于前端载入 Live2D 模型和服务）
-3. Live2D Model（更多的 Live2D 模型）
-4. Live2D Cubism（用于制作自己的 Live2D 模型）
+3. Live2D Model（**可选：**更多的 Live2D 模型）
+4. Live2D Cubism（**可选：**用于制作自己的 Live2D 模型）
 
 ## 使用方法 🔨
 
@@ -28,7 +28,7 @@
 
 原仓库见上面的地址。我已将相关文件存在 `/live2d-api` 文件夹之中，直接将整个文件夹上传至 PHP 环境即可使用。
 
-更多信息，如API接口的使用，模型的位置与增减等，详见 [Live2D API 说明](https://github.com/fghrsh/live2d_api/blob/master/README.md)。
+更多信息，如 API 接口的使用，模型的位置与增减等，详见 [Live2D API 说明](https://github.com/fghrsh/live2d_api/blob/master/README.md)。
 
 ### 2. Live2D Widget
 
@@ -48,13 +48,15 @@ Live2D Widget 是在前端载入 Live2D 模型的插件。
 
 #### 2.1 使用方法
 
-修改 `autoload.js` 文件第2行的目录为自己的插件路径。例如，此例示文件位于 `live2d-widget` 文件夹，则修改路径为：
+修改 `autoload.js` 文件**第2行**的目录为自己的插件路径。例如，此例示文件位于 `live2d-widget` 文件夹，则修改路径为：
 
 ```javascript
 live2d_path = "/live2d-widget/";
+
+// 注意：live2d_path 参数应使用绝对路径
 ```
 
-并修改第35～36行 Live2D API 的路径自己搭建的路径：
+并修改**第35～36行** Live2D API 的路径自己搭建的路径：
 
 ```javascript
 initWidget({
@@ -92,7 +94,7 @@ Live2D Widget 需要 Font Awesome (v4 或 v5) 图标支持，请确保相关样�
 
 更多信息，详见 [Live2D Widget 说明](https://github.com/stevenjoezhang/live2d-widget/blob/master/README.md)。
 
-### 3. Live2D Model
+### 3. Live2D Model（可选）
 
 虽然 Live2D API 内置了一些模型，但是你仍可以添加额外的模型。
 
@@ -100,7 +102,7 @@ Live2D Widget 需要 Font Awesome (v4 或 v5) 图标支持，请确保相关样�
 
 模型使用方法，详见 [Live2D Model 说明](https://github.com/Eikanya/Live2d-model/blob/master/README.md)。
 
-### 4. Live2D Cubism
+### 4. Live2D Cubism（可选）
 
 Live2D Cubism 是制作和修改 Live2D 模型的工具。
 
@@ -109,10 +111,10 @@ Live2D 官方网站：
 + [https://www.live2d.com](https://www.live2d.com)
 + [https://live2d.github.io](https://live2d.github.io/)
 
-### 一个例子 🌰
+## 一个例子 🌰
 
 通过以上四部完成的 Live2D 前端展示的实例：[点此查看](https://pudding.nousbuild.com/live2d-package/demo/index.html)
 
-### 许可证 License
+## 许可证 License
 
 API 内所有模型 版权均属于原作者，仅供研究学习，不得用于商业用途。
